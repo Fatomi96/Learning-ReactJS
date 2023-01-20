@@ -6,7 +6,7 @@ function App() {
   // );
 
   //using html method instead of the jsx
-  return React.createElement("h1", {}, "Heading")
+  return React.createElement("h1", {title: "This is the Heading"}, "Heading")
 }
 
 export default App;
