@@ -1,12 +1,17 @@
 import React from "react";
 
 function App() {
-  // return (
-  //   <div>This is JSX</div>
-  // );
-
-  //using html method instead of the jsx
-  return React.createElement("h1", {title: "This is the Heading"}, "Heading")
+  return (
+    <div>
+      <h1 title="heading">This is the Heading</h1>
+      <p id="para1">This is the paragraph</p>
+      <p className="para2">This is the second paragraph</p>
+      <div>
+        <label htmlFor="input1">Name</label>
+        <input className="input1" name="input1"></input>
+      </div>
+    </div>
+  )
 }
 
 export default App;
