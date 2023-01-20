@@ -1,7 +1,12 @@
+import React from "react";
+
 function App() {
-  return (
-    <div>This is JSX</div>
-  );
+  // return (
+  //   <div>This is JSX</div>
+  // );
+
+  //using html method instead of the jsx
+  return React.createElement("h1", {}, "Heading")
 }
 
 export default App;
